@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimaryBckgrnd"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/currentTimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/GreyColorTest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="87dp"
+        android:layout_marginEnd="87dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:text="TODAY - "
+        android:id="@+id/textView"
+        android:layout_above="@+id/tableRow"
+        android:layout_toLeftOf="@+id/currentTimeTv"
+        android:textColor="@color/GreyColorTest"
+        android:layout_alignParentTop="true"
+        android:gravity="center" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentTimeTv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="10dp"
+        android:id="@+id/tableRow">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="6dip"
+            android:text="Route"
+            android:textColor="@color/GreyColorTest"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:text="Direction"
+            android:textColor="@color/GreyColorTest"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="Departure"
+            android:textColor="@color/GreyColorTest"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableRow"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

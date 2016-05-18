@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\omar.assi\Desktop\my files\icons\final code\libs\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="C:\Users\omar.assi\Desktop\my files\icons\final code\build\intermediates\pre-dexed\debug\butterknife-6.0.0_d10c338aaf5300b8be1a42be748bca1b240de4b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\omar.assi\Desktop\my files\icons\final code\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="C:\Users\omar.assi\Desktop\my files\icons\final code\build\intermediates\pre-dexed\debug\android-support-v4_3431eb52878165bebb4d11d5999ecf39922738a9.jar" />
+    </item>
+
+</items>

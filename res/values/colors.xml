@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#4CC417</color>
+    <color name="ColorPrimaryBckgrnd">#FFF5EE</color>
+    <color name="ColorSecondaryBckgrnd">#FFFFFF</color>
+    <color name="SelectedTabsColor">#F87217</color>
+    <color name="GreyColorTest">#B6B6B4</color>
+</resources>

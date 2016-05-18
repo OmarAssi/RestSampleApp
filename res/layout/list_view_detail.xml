@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/routeTv"
+        android:layout_width="55dp"
+        android:layout_height="fill_parent"
+        android:text="ROUTE"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:contentDescription="TODO"
+        android:layout_gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/directionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="left|top"
+        android:text="To Direction"
+        android:textSize="20sp"
+        android:layout_gravity="top"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textViewTo" />
+
+    <TextView
+        android:id="@+id/timingTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical|left"
+        android:textStyle="bold"
+        android:text="11:30"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/directionTv"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/directionTv" />
+
+    <TextView
+        android:id="@+id/timingDelayTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="11:388888888881"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/routeTv"
+        android:layout_alignRight="@+id/timingTv" />
+
+    <TextView
+        android:id="@+id/delayDetailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="10 min late"
+        android:textColor="@color/SelectedTabsColor"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/directionTv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="to"
+        android:id="@+id/textViewTo"
+        android:layout_marginRight="2dp"
+        android:textColor="@color/GreyColorTest"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/routeTv" />
+</RelativeLayout> 
